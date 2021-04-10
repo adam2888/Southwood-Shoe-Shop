@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Puma Classic Suede</title>
+  <link rel="stylesheet" href="css/southwood.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="Puma Suede Trainer"></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="logo" />
+  </header>
+  <section>
+    <article id="slideShow">
+      <div class="container">
+  <div class="mainImg">
+    <img src="images/blueShoe.png" id="current">
+  </div>
+
+  <div class="thumbnails">
+    <img id="image1"src="images/blueShoe.png">
+    <img id="image2"src="images/greenShoe.png">
+  </div>
+
+</div>
+
+    </article>
+    <article id="productInfo">
+      <div id="productNameandPrice">
+        <h2>Puma</h2>
+        <h3>Suede Classic</h3>
+        <h3>£65.00</h3>
+      </div>
+      <div id="productChoices">
+        <h3>Size:</h3>
+
+          <ul id="sizes" class="closeContainer">
+            <li id="sizePlaceHolder" class=" dropDownName placeHolder"><p>Select a Size</p><i class="fa fa-angle-down"></i></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 3</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 4</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 5</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 6</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 7</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 8</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 9</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 10</p></div></li>
+            <li class="item"><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Size 11</p></div></li>
+          </ul>
+
+          <h3>Colour: </h3>
+
+            <ul id="colours" class="closeContainer">
+            <li id="coloursPlaceHolder" class=" dropDownName placeHolder"><p>Select shoe colour</p><i class="fa fa-angle-down"></i></li>
+
+              <li class="item"><div id="itemImageContainer"><img class="itemImage" src="images/blackSuede.png"><i class="icon fa fa-search-plus"></i><div id="helpBox"><p>Click on a swatch to take a closer look.</p></div></div><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Balck</p></div></li>
+              <li class="item"><div id="itemImageContainer"><img class="itemImage" src="images/greenSuede.png"><i class="icon fa fa-search-plus"></i><div id="helpBox"><p>Click on a swatch to take a closer look.</p></div></div><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Green</p></div></li>
+              <li class="item"><div id="itemImageContainer"><img class="itemImage" src="images/redSuede.png"><i class="icon fa fa-search-plus"></i><div id="helpBox"><p>Click on a swatch to take a closer look.</p></div></div><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Red</p></div></li>
+              <li class="item"><div id="itemImageContainer"><img class="itemImage" src="images/purpleSuede.png"><i class="icon fa fa-search-plus"></i><div id="helpBox"><p>Click on a swatch to take a closer look.</p></div></div><div id="dropDownNameContainer" class="dropDownInfo"><p class="dropDownName">Purple</p></div></li>
+            </ul>
+
+        </div>
+        <div id="productSummary">
+        </div>
+
+        <div id="totalPrice">
+          <p id="quantity">Quantity</p>
+          <div id="quantityTotal"><div id="itemQuantityContainer"><p id="itemQuantity">1</p></div><div id="arrows"><i id="upArrow" class="fa  fa-angle-up "></i><i id="downArrow" class="fa fa-angle-down"></i></div><div id="totalText"><p><span>Total</span></div><p id="updatedPrice">£65.00</p><p id="totalBasketPrice">£65.00</p></div>
+          <div id="basket">
+            <div id="basketText">
+              <p>Add to Basket</p>
+           </div>
+            <div id="heartContainer">
+              <div id="innerHeart">
+              <i id="heart" class=" fa fa-heart fa-2x"></i>
+              <p id="saveText">Save for Later</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="socialMediaIcons">
+         <p></p>
+         <p id="twitter"><i class="fa fa-twitter fa-2x"></i></p>
+         <p id="facebook"><i class="fa fa-facebook-f fa-2x"></i></p>
+         <p id="pinterest"><i class="fa fa-pinterest fa-2x"></i></p>
+        </div>
+      </div>
+   </article>
+
+
+
+   <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+   </div>
+
+ </section>
+  <script src="js/southwood.js"></script>
+</body>
+</html>
