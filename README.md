@@ -1,5 +1,5 @@
 # Southwood-Shoe-Shop
-A product page for a fictional shop selling shoes. 
+A product page for a fictional shoe shop. 
 
 The product page has thumbnails of the different products available. A user can click on a thumbnail to see a larger image of the product. 
 A user can select the size and colour of the shoes and the number of pairs they wish to purchase. The order summery and final price will automaticaly update when changes are made.
