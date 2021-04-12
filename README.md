@@ -1,6 +1,8 @@
 # Southwood-Shoe-Shop
 
-The webpage has two thumbnails of the different products available.When a thumbnail is clicked, a larger image appears.
+This is a product page for a fictional shoe store. 
+
+The webpage has two thumbnails of the different products available. When a thumbnail is clicked, a larger image appears.
 
 The size, colour and quantity can all be selected via drop down menus and buttons. The order summery and final price will automatically update when changes are made.
 
